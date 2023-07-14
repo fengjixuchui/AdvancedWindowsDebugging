@@ -15,7 +15,7 @@ Copyright (c) Advanced Windows Debugging (ISBN 0321374460) from Addison-Wesley P
 
 #include "resource.h"
 #include "SRV.h"
-#include "SRV_i.c"
+#include "..\proxy\srv.h"
 #include "comdef.h"
 
 #define _ATL_APARTMENT_THREADED
