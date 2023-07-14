@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.21.1)
+
+project(Chapter8)
+
+add_subdirectory(CLI)
+add_subdirectory(SRV)
+add_subdirectory(proxy)

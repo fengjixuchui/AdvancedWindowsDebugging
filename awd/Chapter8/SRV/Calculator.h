@@ -12,6 +12,7 @@ Copyright (c) Advanced Windows Debugging (ISBN 0321374460) from Addison-Wesley P
 #include "resource.h"       // main symbols
 
 #include "SRV.h"
+#include "..\proxy\srv.h"
 
 
 

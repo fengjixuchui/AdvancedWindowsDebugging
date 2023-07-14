@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.21.1)
+
+project(Chapter8)
+
+add_executable(08cli
+CLI.cpp
+cmakelists.txt
+MAKEFILE
+sources
+version.rc
+)
+
