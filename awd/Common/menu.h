@@ -35,7 +35,7 @@ public:
     while(true)
     {
         wprintf(L"\n> ");
-        WCHAR command = _getwch();
+        CHAR command = getwchar();
 
       OPTIONS * lastCommand = option;
          for (;lastCommand->handler!=NULL && lastCommand->key != command;lastCommand++)
