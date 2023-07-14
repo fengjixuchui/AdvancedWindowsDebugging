@@ -1,0 +1,29 @@
+cmake_minimum_required(VERSION 3.21.1)
+
+project(Chapter8)
+
+add_library(08comps SHARED
+08comps.def
+dlldata.c
+MAKEFILE
+sources
+srv.h
+SRV.idl
+srv.tlb
+srv_i.c
+srv_p.c
+version.rc
+)
+
+target_link_libraries(08comps
+kernel32.lib
+advapi32.lib
+user32.lib
+version.lib
+oleaut32.lib
+ole32.lib
+rpcrt4.lib
+uuid.lib
+)
+
+add_compile_definitions(UNICODE _UNICODE REGISTER_PROXY_DLL)
