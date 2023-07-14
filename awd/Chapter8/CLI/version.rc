@@ -14,7 +14,7 @@ Copyright (c) Advanced Windows Debugging (ISBN 0321374460) from Addison-Wesley P
 #define    VER_FILETYPE    VFT_DLL
 #define    VER_FILESUBTYPE    VFT2_UNKNOWN
 #define VER_FILEDESCRIPTION_STR     "Sample Code"
-#define VER_INTERNALNAME_STR SXS_TARGET
+#define VER_INTERNALNAME_STR "InternalName"
 #define VER_LEGALCOPYRIGHT_STR "Copyright (c) Advanced Windows Debugging (ISBN 0321374460) from Addison-Wesley Professional. All rights reserved."
 
 #undef VER_PRODUCTVERSION
